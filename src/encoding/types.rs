@@ -125,7 +125,7 @@ impl StringWriter for String {
     }
 
     fn write_char(&mut self, c: char) {
-        self.push_char(c);
+        self.push(c);
     }
 
     fn write_str(&mut self, s: &str) {
